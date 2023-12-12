@@ -1,0 +1,32 @@
+
+Before excute commands  make shower check the valid credientals inside the sql file and routes folder files and app.py file all check
+
+and set configuration according to your data:
+
+db_config = {
+    'host': 'localhost',
+    'user': 'root',
+    'password': 'your_password',
+    'database': 'task_management'
+}
+
+Inside the mysqlserver bin folder write cmd and then execute the following command one by one:  
+command: mysql -h localhost -u root -p
+
+command: source user_Address\FlaskApp\database\schema.sql
+
+command: source user_Address\FlaskApp\database\insert_data.sql
+
+After the SQL databese creation execute the command: 
+
+command: pip install -r requirements.txt --no-user
+
+command: python app.py 
+
+make shower when you run the command in the FlaskApp.
+
+ 
+
+ 
+
+
